@@ -8,7 +8,7 @@ const Header = () => {
       <header className={`header-container ${isDark ? "dark" : ""}`}>
         <div className="header-content">
           <h2 className="title">
-            <a href="/">The World's Data Base</a>
+            <a href="/">Where in the world?</a>
           </h2>
           <p
             className="theme-changer"
