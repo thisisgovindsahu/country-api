@@ -35,17 +35,6 @@ const App = () => {
   return (
     <ThemeProvider>
       <Header />
-      <div>
-        <h1>Phone OTP Authentication</h1>
-        <div ref={recaptchaRef}></div>
-        <input
-          type="tel"
-          placeholder="Enter your phone number"
-          value={phoneNumber}
-          onChange={(e) => setPhoneNumber(e.target.value)}
-        />
-        <button onClick={handleSendOtp}>send OTP</button>
-      </div>
       <Outlet />
     </ThemeProvider>
   );
